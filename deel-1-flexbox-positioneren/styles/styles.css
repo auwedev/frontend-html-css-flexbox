@@ -1,1 +1,67 @@
 /*Schrijf hier jouw CSS*/
+.container-opdracht-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-opdracht-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-opdracht-2 li {
+    flex:1;
+}
+
+.container-opdracht-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+li#top-left {
+    align-self: flex-start;
+}
+
+li#centered {
+    align-self: center;
+}
+
+li#bottom-right {
+    align-self: flex-end;
+}
+
+.container-opdracht-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container-opdracht-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.container-opdracht-5-sub-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container-opdracht-5-sub-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-opdracht-5-sub-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
